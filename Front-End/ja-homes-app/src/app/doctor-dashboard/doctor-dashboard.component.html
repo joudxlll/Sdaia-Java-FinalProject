@@ -1,0 +1,19 @@
+
+<div class="dashboard-container">
+    <div class="sidebar">
+        <nav>
+            <ul class="menu">
+                <li><a routerLink="/doctorDashboard/schedule">Manage Schedule</a></li>
+                <li><a routerLink="/doctorDashboard/consultation-requests">Consultation Requests</a></li>
+                <li><a routerLink="/doctorDashboard/search-patients-MR">Search Patients' Medical Record</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main-content">
+        <h2>Welcome, Doctor!</h2>
+        <p>Here's a quick overview of your activities and pending tasks.</p>
+
+        <router-outlet></router-outlet>
+    </div>
+</div>
